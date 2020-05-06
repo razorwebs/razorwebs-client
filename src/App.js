@@ -4,7 +4,12 @@ import "./App.css";
 // import Header from "./components/header/Header.js";
 
 function App() {
-  return <div className="App">I love to eat pussy!</div>;
+  return (
+    <div className="App container">
+      Welcome to a MEAN of three naked bitches doing Marilyn Monroe cocaine like
+      there El Chapos side bitches!
+    </div>
+  );
 }
 
 export default App;
