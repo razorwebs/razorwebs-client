@@ -1,0 +1,7 @@
+sudo: required
+services:
+  - docker
+
+scripts:
+  - docker build -t razorwebs/razorwebs-client:latest .
+  - docker images razorwebs/razorwebs-client:latest
