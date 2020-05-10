@@ -1,3 +1,23 @@
+/* Fonts */
+
+html,
+body,
+.container,
+.grid,
+div {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
@@ -8,26 +28,70 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  padding: 1em;
+  background-color: #000;
+  margin-bottom: 1em;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: #000;
+  padding-top: 3em !important;
+  padding-bottom: 2em !important;
+  margin-top: 2em; /* Remove later */
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer .segment .list .header {
+  background-color: transparent !important;
+}
+
+/* Main Slider CSS */
+
+.slider {
+  height: auto !important;
+  min-height: 50vh;
+  color: #fff;
+}
+
+.slider h1 {
+  font-size: 6em;
+  color: #fff;
+  text-shadow: #000 2px 2px 3px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.slide p {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+.slide Button {
+  border-radius: 100px;
+}
+
+.slide {
+  padding: 15vh 0 !important;
+}
+
+.slide .center {
+  max-width: 95%;
+}
+
+/* Heros */
+.basichero {
+  padding: 15vh 0;
+}
+
+.basichero p {
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
 }
